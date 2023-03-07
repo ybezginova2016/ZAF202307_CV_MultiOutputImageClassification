@@ -29,7 +29,7 @@ To use the trained model for image classification, follow these steps:
 2. Load and preprocess the image using the ViTFeatureExtractor from the transformers package.
 3. Make a prediction using the loaded model.
 
-The saved models are located in three separate folders named `mode_model`, `quality_model`, and `rotation_model`. Each folder contains two files: `config.json` and `pytorch_model.bin`. 
+The saved models are located in three separate folders named `mode_model`, `quality_model`, and `rotation_model` in the drive : `https://drive.google.com/drive/folders/1p24PiWuVFYi-D3lhYK3uxgbeIFtsW5fp?usp=sharing`. Each folder contains corresponding `pytorch_model.bin`. 
 
 ### Papers
 The following papers were referred to for this project:
