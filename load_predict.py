@@ -26,7 +26,7 @@ loaded_model = model_from_json(loaded_model_json)
 loaded_model.load_weights("model.h5")
 print("Loaded model from disk")
 
-# using same images for quality,rotate and mode
+# using same image for quality,rotate and mode
 prediction = loaded_model([X, X, X])
 
 classes = ['quality', 'rotate', 'mode']
